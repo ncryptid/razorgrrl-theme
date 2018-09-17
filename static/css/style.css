@@ -1,0 +1,358 @@
+/*===
+Fonts
+=== */
+
+/* iceland-regular - latin */
+@font-face {
+  font-family: 'Iceland';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/iceland-v6-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Iceland'), local('Iceland-Regular'),
+       url('fonts/iceland-v6-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/iceland-v6-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/iceland-v6-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('fonts/iceland-v6-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fonts/iceland-v6-latin-regular.svg#Iceland') format('svg'); /* Legacy iOS */
+}
+
+
+/* inconsolata-regular - latin */
+@font-face {
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/inconsolata-v16-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Inconsolata Regular'), local('Inconsolata-Regular'),
+       url('fonts/inconsolata-v16-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/inconsolata-v16-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/inconsolata-v16-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('fonts/inconsolata-v16-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fonts/inconsolata-v16-latin-regular.svg#Inconsolata') format('svg'); /* Legacy iOS */
+}
+
+/* astloch-regular - latin */
+@font-face {
+  font-family: 'Astloch';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/astloch-v8-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Astloch Regular'), local('Astloch-Regular'),
+       url('fonts/astloch-v8-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/astloch-v8-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/astloch-v8-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('fonts/astloch-v8-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fonts/astloch-v8-latin-regular.svg#Astloch') format('svg'); /* Legacy iOS */
+}
+
+/* astloch-700 - latin */
+@font-face {
+  font-family: 'Astloch';
+  font-style: normal;
+  font-weight: 700;
+  src: url('fonts/astloch-v8-latin-700.eot'); /* IE9 Compat Modes */
+  src: local('Astloch Bold'), local('Astloch-Bold'),
+       url('fonts/astloch-v8-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/astloch-v8-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/astloch-v8-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('fonts/astloch-v8-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fonts/astloch-v8-latin-700.svg#Astloch') format('svg'); /* Legacy iOS */
+}
+
+
+/* ================
+ Default styling
+================ */
+
+body {
+  background-color: black;
+  max-width: 900px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+p {
+  margin-top: 0px;
+  font-size: 100%;
+}
+
+hr {
+  border: 0px;
+  height: 1px;
+  background-color: #e60073;
+  border-color: #e60073;
+
+}
+
+a {
+  color: #e60073;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #a5427e;
+}
+
+::selection {
+  color: #D0003E;
+  background: none;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+blockquote {
+  font-style: italic;
+}
+
+h2 {
+  color: #e60073;
+  font-family: 'Iceland', monospace;
+  font-size: 200%;
+}
+
+/* =======
+Classes
+======= */
+
+.bar-button, .post-title-link:before {
+  content: '[';
+}
+
+.bar-button, .post-title-link:after {
+  content: ']';
+}
+
+.back-button:before {
+  content: '[';
+}
+
+.back-button:after {
+  content: ']';
+}
+
+.logo {
+  max-width: 100px;
+  max-height: 100px;
+  display: block;
+  margin: 0 auto;
+  display: inline-block;
+  vertical-align: middle;
+
+}
+
+.header-div {
+  display: flex;
+  align-items: center;
+}
+
+.logo-div {
+  margin-bottom: 3px;
+}
+.banner-div {
+}
+
+.banner {
+  color: var(--home-color);
+  text-align: center;
+  font-size: 400%;
+  font-family: 'Iceland', monospace;
+  margin: auto 3% auto 3%;
+  display: inline;
+  vertical-align: top;
+}
+
+.banner-text {
+  color: var(--home-color);
+  font-size: 150%;
+  font-style: italic;
+  font-family: 'Iceland', monospace;
+  margin: auto auto auto 2%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.top-bar{
+  width: 80%;
+  color: var(--main-color);
+  margin: auto;
+  margin-top: 1%;
+  text-align: center;
+}
+
+.bar-button,.tax-button,.back-button,.forward-button {
+  color: #e60073;
+  font-size: 175%;
+  text-decoration: none;
+  font-family: 'Inconsolata', monospace;
+  margin: auto 1% auto 1%;
+}
+
+.bar-button:before {
+  content: '[';
+}
+
+.bar-button:after {
+  content: ']';
+}
+
+.tax-button,.back-button,.forward-button {
+  font-size: 14px;
+  margin: auto;
+}
+
+.main-div {
+  max-width: 950px;
+  margin: auto;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  line-height: 1.5rem;
+}
+
+.post-div {
+  color: #9D5F8D;
+  font-family: 'Inconsolata', monospace;
+  margin-bottom: 50px;
+}
+
+.icon {
+  position: relative;
+  top: 1.5px;
+}
+
+.post-meta {
+  color: grey;
+  font-family: 'Inconsolata', monospace;
+  font-size: 14px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.post-title, .post-title-link {
+  font-family: 'Iceland', monospace;
+  color: #e60073;
+  font-size: 200%;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.sub-header {
+  font-family: 'Iceland', monospace;
+  color: #e60073;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.post-content {
+  color: #9D5F8D;
+  font-family: 'Inconsolata', monospace;
+}
+
+.about-content {
+  font-family: 'Astloch', cursive;
+  font-size:1.4rem;
+}
+
+.post-date {
+  size: 10px;
+}
+
+.post-bottom-div {
+  border-top: 1px solid #9D5F8D;
+}
+
+.footer-div {
+  /* margin-top: 24px;
+  margin: auto auto auto 2%; */
+  max-width: 950px;
+  margin: auto;
+  font-family: 'Inconsolata', monospace;
+  overflow: auto;
+}
+
+.left-list {
+  float: left;
+  max-width: 400px;
+  list-style-type: none;
+  padding: 0px;
+}
+
+.right-list {
+  float: right;
+  color: #9D5F8D;
+  max-width: 400px;
+  list-style-type: none;
+  padding: 0px;
+  text-align: right;
+}
+
+.archive-list {
+  color: #9D5F8D;
+  font-family: 'Inconsolata', monospace;
+  list-style-type: none;
+
+}
+
+.description-p{
+  margin-top: 0px;
+}
+
+.copyleft-div {
+  text-align: center;
+  background-color: black;
+  font-family: 'Inconsolata', monospace;
+  padding: 1rem;
+
+}
+
+.copyleft {
+  display:inline-block;
+  transform: rotate(180deg);
+}
+
+/* ===========
+Responsiveness
+============*/
+
+@media screen and (max-width: 800px) {
+  .header-div {
+     display: block;
+  }
+
+  .banner-div {
+     display: inline-block;
+     align-items: center;
+  }
+
+  .banner {
+     font-size: 10vw;
+  }
+
+  .banner-text {
+     font-size: calc(12px + 1vw);
+  }
+  .logo{
+     margin-left: 5px;
+  }
+  .bar-button {
+     font-size: calc(12px + 2vw);
+  }
+
+  .left-list,.right-list {
+    float: none;
+    text-align: center;
+    margin: auto;
+  }
+
+}
+
+/* ========
+Page colors
+======== */
+
+.home-color {
+  color: #e60073;
+  border-color: #e60073;
+}
