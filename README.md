@@ -5,7 +5,7 @@ The name of the theme is inspired by William Gibson's _Neuromancer_ and the char
 # Configuration
 At the moment, the color scheme is neon pink and lavender. Porting the stylesheet to SASS is planned to make swapping out color schemes easier, but at the moment that has to be done using the traditional (and terrible) search-and-replace CSS editing technique.
 
-The `config.template.toml` file can be used as a guide for all the required variables that the theme needs. In the future, this will be automated with a bash script, which should be implemented soon.
+The `config.template.toml` file can be used as a guide for all the required variables that the theme needs, just make sure to move it into the root of your Hugo repository and rename it to `config.toml`. In the future, this will be automated with a bash script, which should be implemented soon.
 
 A few notes about configuration:
 - The `description` variable is markdownified
