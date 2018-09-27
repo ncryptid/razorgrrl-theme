@@ -22,7 +22,7 @@ canonifyURLs = true
 docsrepo = ""
 siterepo = ""
 license = ""
-license-img = ""
+licenseimg = ""
 
 [permalinks]
     post = "/blog/:title/"
