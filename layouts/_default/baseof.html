@@ -24,9 +24,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1">
 <meta name="viewport" content="width=device-width">
 <script type="text/javascript" src="/js/jquery.min.js"></script>
-<!-- <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script> -->
+<script type="text/javascript" src="/js/load_more.js"></script>
 
-<script type="text/javascript">
+<script ty[e="text/javascript">
+
     $('html').addClass('hidden');
     $(document).ready(function() {    // EDIT: From Adam Zerner's comment below: Rather use load: $(window).on('load', function () {...});
           $('html').show();  // EDIT: Can also use $('html').removeClass('hidden');
@@ -48,14 +49,18 @@
 	    <h1 class="banner home-color">
 		    {{ .Site.Title }}
 	    </h1>
-	    <p class="banner-text home-color">{{ $.Site.Params.headline }}</p>
-	  </div>
-	  </div>
+	    <p class="banner-text home-color">{{ $.Site.Params.headline }}
+      </p>
+    </div>
+    <div class="rss-feed-div">
+        <a href="{{ .Site.BaseURL }}/posts/index.xml"><i class="icon fa fa-feed"></i></a>
+    </div>
+  </div>
 
 	<hr class="rule">
 	<div class="top-bar home-color">
 	{{ range $.Site.Params.navigation.list }}
-		<a href="{{ print $.Site.BaseURL "/" .link }}" class="bar-button">{{ .name }}</a>
+		<a href="{{ .link }}" class="bar-button">{{ .name }}</a>
 	{{ end }}
 	</div>
    {{ end }}
@@ -66,6 +71,8 @@
 
    {{ end }}
    </div>
+
+
    <!-- global footer -->
 
    {{ block "footer" . }}

@@ -104,6 +104,10 @@ li {
 
 blockquote {
   font-style: italic;
+  border-left-color: #e60073;
+  border-left-style: solid;
+  border-left-width: 3px;
+  padding: 1px 10px 1px 10px;
 }
 
 h2 {
@@ -145,11 +149,13 @@ Classes
 .header-div {
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 .logo-div {
   margin-bottom: 3px;
 }
+
 .banner-div {
 }
 
@@ -171,6 +177,13 @@ Classes
   margin: auto auto auto 2%;
   display: inline-block;
   vertical-align: middle;
+}
+
+.rss-feed-div {
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
 }
 
 .top-bar{
@@ -212,6 +225,7 @@ Classes
 }
 
 .post-div {
+  display: none;
   color: #9D5F8D;
   font-family: 'Inconsolata', monospace;
   margin-bottom: 50px;
@@ -312,6 +326,16 @@ Classes
   transform: rotate(180deg);
 }
 
+/*=======
+IDs
+=======*/
+
+load-more{
+    -webkit-transition: all 600ms ease-in-out;
+    -moz-transition: all 600ms ease-in-out;
+    -o-transition: all 600ms ease-in-out;
+}
+
 /* ===========
 Responsiveness
 ============*/
@@ -333,6 +357,7 @@ Responsiveness
   .banner-text {
      font-size: calc(12px + 1vw);
   }
+
   .logo{
      margin-left: 5px;
   }

@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-{{ range first 5 (where .Pages "Type" "post") }}
+{{ range (where .Pages "Type" "post") }}
   {{ if not (isset .Params "hidden" ) }}
 
 {{ with .Description }}
@@ -27,9 +27,13 @@
 {{ $len := (len $list) }}
 
 {{ if gt $len 5 }}
-<div class="footer-div home-color"><ul class="right-list">
-		<li><a href="{{ .Site.BaseURL }}/archives" class="back-button">view all posts</a></li>
-</ul>
+<div class="footer-div home-color">
+    <ul class="left-list">
+        <li><a href="{{ .Site.BaseURL }}/archives" class="back-button">view all posts</a></li>
+    </ul>
+    <ul class="right-list">
+        <li><a href="#" class="back-button" id="load-more">load more</a></li>
+    </ul>
 </div>
 {{ end }}
 {{ end }}

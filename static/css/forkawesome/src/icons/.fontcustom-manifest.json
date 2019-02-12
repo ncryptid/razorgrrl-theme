@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "702dda021ad3e12337fe38796f683cd726ba02aec2bb0643fcc04919aa9ba146",
-    "current": "702dda021ad3e12337fe38796f683cd726ba02aec2bb0643fcc04919aa9ba146"
+    "previous": "3d4b3a0a766fcd7ca09626de8dded74fb1fae1dd6acd124a152a890f1cd3e0d4",
+    "current": "3d4b3a0a766fcd7ca09626de8dded74fb1fae1dd6acd124a152a890f1cd3e0d4"
   },
   "fonts": [
     "forkawesome/forkawesome.ttf",
@@ -211,6 +211,10 @@
       "codepoint": 61946,
       "source": "svg/at.svg"
     },
+    "att": {
+      "codepoint": 62238,
+      "source": "svg/att.svg"
+    },
     "audio-description": {
       "codepoint": 62110,
       "source": "svg/audio-description.svg"
@@ -359,6 +363,10 @@
       "codepoint": 61591,
       "source": "svg/bookmark-o.svg"
     },
+    "bootstrap": {
+      "codepoint": 62229,
+      "source": "svg/bootstrap.svg"
+    },
     "braille": {
       "codepoint": 62113,
       "source": "svg/braille.svg"
@@ -398,6 +406,10 @@
     "buysellads": {
       "codepoint": 61965,
       "source": "svg/buysellads.svg"
+    },
+    "c": {
+      "codepoint": 62236,
+      "source": "svg/c.svg"
     },
     "calculator": {
       "codepoint": 61932,
@@ -759,6 +771,10 @@
       "codepoint": 61704,
       "source": "svg/desktop.svg"
     },
+    "dev-to": {
+      "codepoint": 62230,
+      "source": "svg/dev-to.svg"
+    },
     "deviantart": {
       "codepoint": 61885,
       "source": "svg/deviantart.svg"
@@ -774,6 +790,10 @@
     "digg": {
       "codepoint": 61862,
       "source": "svg/digg.svg"
+    },
+    "digitalocean": {
+      "codepoint": 62237,
+      "source": "svg/digitalocean.svg"
     },
     "discord": {
       "codepoint": 62190,
@@ -826,6 +846,10 @@
     "ellipsis-v": {
       "codepoint": 61762,
       "source": "svg/ellipsis-v.svg"
+    },
+    "emby": {
+      "codepoint": 62233,
+      "source": "svg/emby.svg"
     },
     "empire": {
       "codepoint": 61905,
@@ -970,6 +994,10 @@
     "file-code-o": {
       "codepoint": 61897,
       "source": "svg/file-code-o.svg"
+    },
+    "file-epub": {
+      "codepoint": 62241,
+      "source": "svg/file-epub.svg"
     },
     "file-excel-o": {
       "codepoint": 61891,
@@ -1159,6 +1187,10 @@
       "codepoint": 61547,
       "source": "svg/gift.svg"
     },
+    "gimp": {
+      "codepoint": 62235,
+      "source": "svg/gimp.svg"
+    },
     "git": {
       "codepoint": 61907,
       "source": "svg/git.svg"
@@ -1166,6 +1198,10 @@
     "git-square": {
       "codepoint": 61906,
       "source": "svg/git-square.svg"
+    },
+    "gitea": {
+      "codepoint": 62239,
+      "source": "svg/gitea.svg"
     },
     "github": {
       "codepoint": 61595,
@@ -1307,6 +1343,10 @@
       "codepoint": 62133,
       "source": "svg/handshake-o.svg"
     },
+    "hashnode": {
+      "codepoint": 62231,
+      "source": "svg/hashnode.svg"
+    },
     "hashtag": {
       "codepoint": 62098,
       "source": "svg/hashtag.svg"
@@ -1423,6 +1463,10 @@
       "codepoint": 61530,
       "source": "svg/info-circle.svg"
     },
+    "inkscape": {
+      "codepoint": 62226,
+      "source": "svg/inkscape.svg"
+    },
     "inr": {
       "codepoint": 61782,
       "source": "svg/inr.svg"
@@ -1442,6 +1486,10 @@
     "italic": {
       "codepoint": 61491,
       "source": "svg/italic.svg"
+    },
+    "jirafeau": {
+      "codepoint": 62232,
+      "source": "svg/jirafeau.svg"
     },
     "joomla": {
       "codepoint": 61866,
@@ -1666,6 +1714,10 @@
     "mastodon-square": {
       "codepoint": 62208,
       "source": "svg/mastodon-square.svg"
+    },
+    "matrix-org": {
+      "codepoint": 62227,
+      "source": "svg/matrix-org.svg"
     },
     "maxcdn": {
       "codepoint": 61750,
@@ -1914,6 +1966,10 @@
     "pinterest-square": {
       "codepoint": 61651,
       "source": "svg/pinterest-square.svg"
+    },
+    "pixelfed": {
+      "codepoint": 62228,
+      "source": "svg/pixelfed.svg"
     },
     "plane": {
       "codepoint": 61554,
@@ -2419,6 +2475,10 @@
       "codepoint": 61739,
       "source": "svg/superscript.svg"
     },
+    "syncthing": {
+      "codepoint": 62225,
+      "source": "svg/syncthing.svg"
+    },
     "table": {
       "codepoint": 61646,
       "source": "svg/table.svg"
@@ -2790,6 +2850,10 @@
     "wifi": {
       "codepoint": 61931,
       "source": "svg/wifi.svg"
+    },
+    "wikidata": {
+      "codepoint": 62234,
+      "source": "svg/wikidata.svg"
     },
     "wikipedia-w": {
       "codepoint": 62054,
