@@ -6,8 +6,8 @@
 <link rel="stylesheet" type="text/css" href="/css/forkawesome/css/fork-awesome.min.css"/>
 <link rel="icon" sizes="any" href="{{ .Site.BaseURL }}/favicon.ico">
 <link rel="canonical" href="{{ .Site.BaseURL }}">
-<meta name="twitter:site" content="@NyxLandUnlife">
-<meta name="twitter:creator" content="@NyxLandUnlife">
+<meta name="twitter:site" content="{{ $.Site.Params.twitter }}">
+<meta name="twitter:creator" content="{{ $.Site.Params.twitter }}">
 {{ if .IsPage }}
 <meta name="twitter:description" content="{{ .Summary }}">
 <meta name="twitter:title" content="{{ .Title }}">
